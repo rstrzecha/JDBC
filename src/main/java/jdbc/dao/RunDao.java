@@ -16,5 +16,6 @@ public interface RunDao {
     void deleteById(Integer id) throws SQLException;        //D
 }
 
+
 //Dodać do RunDao metodę pozwalającą na wyszukiwanie biegów w zakresie limitu
 //        uczestników (limitMax, limitMin). Utworzyć do niej test oraz implementację.
